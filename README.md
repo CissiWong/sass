@@ -4,7 +4,7 @@ In today's assignment we are going to learn how to use SASS and take our fronten
 
 ![Booking form](https://github.com/Technigo/assignment-sass/raw/master/norweigan.png)
 
-Please take a moment to study the hover and onclick effects and try and copy them in your assignment. 
+Please take a moment to study the hover and onclick effects and try and copy them in your assignment. Use mock data for the dropdowns – you don't need to add all Norweigans destinations. 
 
 
 ## How to complete this assignment
