@@ -42,14 +42,24 @@ p {
 }
 
 .tab {
-  width: 70px;
+  display: flex;
+  width: 80px;
   height: 40px;
   background-color: #003d4e;
   position: absolute;
   left: 102px;
   top: 60px;
   background-color: #e3e3e3;
-}
+   img {
+     width: 20px;
+     height: 20px;
+     margin: 10px;
+    p {
+      margin: 0;
+      padding: 0;
+     }
+  }
+ }
 
 .form {
     display: flex;
@@ -63,19 +73,23 @@ p {
 .input {
   @include search-box;
   margin-right: 10px;
-} hr {
-  border-bottom: 2px solid #c3c3c3;
-  width: 300px;
-  margin: 4px 0;
-  padding: 0;
+   hr {
+    border-bottom: 2px solid #c3c3c3;
+    width: 300px;
+    margin: 4px 0;
+    padding: 0;
+ }
 }
-
-
 
 .text {
   text-decoration: underline;
   text-decoration-color: #003d4e;
   text-decoration-style: dotted;
+   p {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 30px 0;
+  }
 }
 
 .bottom-container {
@@ -86,16 +100,16 @@ p {
 .search-btn {
   @include search-btn
   position: relative;
- p {
-  color: #fff;
-  font-weight: bold;
-  position: absolute;
-  font-size: 18px;
-  top: 0;
-  right: 40px;
-  bottom: 0;
-  left: 0;
-  }
+   p {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    right: 40px;
+    bottom: 0;
+    left: 0;
+ }
 }
 
 .search-btn {

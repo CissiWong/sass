@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import bg from "./front-header.jpg"
+import tickets from "./tickets.svg"
 
 export default class HomeView extends React.Component {
   render() {
@@ -9,7 +10,10 @@ export default class HomeView extends React.Component {
         <main
           className="container"
           style={{ backgroundImage: `url(${bg})` }} >
-          <div className="tab" />
+          <div className="tab" >
+            <img src={tickets} alt="" />
+            <div><p>Flyg</p></div>
+          </div>
           <form className="form">
             <div className="input-box">
               <p>Flyg från:</p>
