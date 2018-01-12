@@ -9,25 +9,30 @@ export default class HomeView extends React.Component {
         <main
           className="container"
           style={{ backgroundImage: `url(${bg})` }} >
+          <div className="tab" />
           <form className="form">
-            <label>
-              <h2>Flyg från</h2>
-              <div className="input-container">
-                <input
-                  className="input left"
-                  placeholder="Var flyger du ifrån?" />
+            <div className="input-box">
+              <p>Flyg från:</p>
+              <input
+                className="input left"
+                placeholder="Var flyger du ifrån?" />
+              <hr />
+            </div>
+            <div>
+              <p>Flyg till:</p>
+              <input
+                className="input right"
+                placeholder="Vart vill du resa?" />
+              <hr />
+            </div>
+            <div className="bottom-container">
+              <div className="text"><p>Stockholm, Göteborg eller Malmö?</p>
               </div>
-              <h2>Flyg till</h2>
-              <div className="input-container">
-                <input
-                  className="input right"
-                  placeholder="Vart vill du resa?" />
-              </div>
-            </label>
-            <div>Stockholm</div>
-            <div>Göteborg</div>
-            <div>Malmö</div>
-            <button className="nw search-btn" />
+              <button className="search-btn">
+                <p>Sök och beställ</p>
+                <hr />
+              </button>
+            </div>
           </form>
         </main>
       </div>
